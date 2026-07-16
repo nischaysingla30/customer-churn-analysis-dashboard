@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Churn Analytics Dashboard</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-chart-line-up"></i>
+                </div>
+                <div class="brand-text">
+                    <h2>Retentio</h2>
+                    <span>Churn Analytics</span>
+                </div>
+            </div>
+            
+            <nav class="nav-menu">
+                <a href="#" class="nav-item active" data-target="overview-page">
+                    <i class="fa-solid fa-grid-2-circle"></i>
+                    <span>Dashboard Overview</span>
+                </a>
+                <a href="#" class="nav-item" data-target="python-etl-page">
+                    <i class="fa-brands fa-python"></i>
+                    <span>Python ETL Pipeline</span>
+                </a>
+                <a href="#" class="nav-item" data-target="sql-playground-page">
+                    <i class="fa-solid fa-database"></i>
+                    <span>SQL SQL Playground</span>
+                </a>
+                <a href="#" class="nav-item" data-target="insights-page">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <span>Retention Insights</span>
+                </a>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <div class="db-status">
+                    <span class="status-dot online"></span>
+                    <span class="status-text">SQLite / Pandas Connected</span>
+                </div>
+                <div class="dataset-meta">
+                    <div class="meta-row">
+                        <span class="meta-label">Records:</span>
+                        <span class="meta-value">1,000 Customers</span>
+                    </div>
+                    <div class="meta-row">
+                        <span class="meta-label">File Size:</span>
+                        <span class="meta-value">148 KB (CSV)</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <header class="top-header">
+                <div class="header-left">
+                    <h1 id="page-title">Dashboard Overview</h1>
+                    <p id="page-subtitle" class="subtitle">Real-time customer churn analysis & predictive monitoring</p>
+                </div>
+                <div class="header-right">
+                    <div class="time-badge">
+                        <i class="fa-solid fa-clock"></i>
+                        <span id="current-time">11:54 AM</span>
+                    </div>
+                    <div class="user-badge">
+                        <div class="avatar">DS</div>
+                        <span class="username">Deepshikha</span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Page 1: Dashboard Overview -->
+            <section id="overview-page" class="page-section active">
+                <!-- Slicer / Filter Panel -->
+                <div class="filter-panel glass-card">
+                    <div class="panel-header">
+                        <i class="fa-solid fa-sliders"></i>
+                        <h3>Interactive Slicers</h3>
+                        <button id="reset-filters" class="btn-text">
+                            <i class="fa-solid fa-rotate-left"></i> Reset Filters
+                        </button>
+                    </div>
+                    <div class="filters-grid">
+                        <div class="filter-group">
+                            <label for="filter-gender">Gender</label>
+                            <select id="filter-gender">
+                                <option value="all">All Genders</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label for="filter-contract">Contract Type</label>
+                            <select id="filter-contract">
+                                <option value="all">All Contracts</option>
+                                <option value="Month-to-month">Month-to-month</option>
+                                <option value="One year">One year</option>
+                                <option value="Two year">Two year</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label for="filter-internet">Internet Service</label>
+                            <select id="filter-internet">
+                                <option value="all">All Services</option>
+                                <option value="DSL">DSL</option>
+                                <option value="Fiber optic">Fiber optic</option>
+                                <option value="No">No Internet</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label for="filter-payment">Payment Method</label>
+                            <select id="filter-payment">
+                                <option value="all">All Methods</option>
+                                <option value="Electronic check">Electronic Check</option>
+                                <option value="Mailed check">Mailed Check</option>
+                                <option value="Bank transfer (automatic)">Bank Transfer (Auto)</option>
+                                <option value="Credit card (automatic)">Credit Card (Auto)</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label>Tenure Range: <span id="tenure-val">0 - 72 mos</span></label>
+                            <div class="range-slider-container">
+                                <input type="range" id="filter-tenure" min="0" max="72" value="72" class="slider">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- KPI Ribbon -->
+                <div class="kpi-grid">
+                    <div class="kpi-card glass-card">
+                        <div class="kpi-header">
+                            <span>Total Customers</span>
+                            <i class="fa-solid fa-users icon-users"></i>
+                        </div>
+                        <div class="kpi-value" id="kpi-total-customers">1,000</div>
+                        <div class="kpi-footer">
+                            <span class="trend positive"><i class="fa-solid fa-arrow-trend-up"></i> +4.2%</span>
+                            <span class="footer-desc">vs last month</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card glass-card">
+                        <div class="kpi-header">
+                            <span>Active Subscribers</span>
+                            <i class="fa-solid fa-user-check icon-active"></i>
+                        </div>
+                        <div class="kpi-value" id="kpi-active-customers">735</div>
+                        <div class="kpi-footer">
+                            <span class="trend neutral">Steady</span>
+                            <span class="footer-desc">92% satisfaction</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card glass-card danger-accent">
+                        <div class="kpi-header">
+                            <span>Churn Rate</span>
+                            <i class="fa-solid fa-user-minus icon-churn"></i>
+                        </div>
+                        <div class="kpi-value" id="kpi-churn-rate">26.5%</div>
+                        <div class="kpi-footer">
+                            <span class="trend negative" id="kpi-churn-trend"><i class="fa-solid fa-arrow-trend-up"></i> +1.8%</span>
+                            <span class="footer-desc">industry avg: 22%</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card glass-card">
+                        <div class="kpi-header">
+                            <span>Monthly MRR</span>
+                            <i class="fa-solid fa-money-bill-trend-up icon-mrr"></i>
+                        </div>
+                        <div class="kpi-value" id="kpi-mrr">$64,720</div>
+                        <div class="kpi-footer">
+                            <span class="trend positive"><i class="fa-solid fa-arrow-trend-up"></i> +2.4%</span>
+                            <span class="footer-desc">ARPU: $64.72</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card glass-card warning-accent">
+                        <div class="kpi-header">
+                            <span>Revenue at Risk</span>
+                            <i class="fa-solid fa-triangle-exclamation icon-risk"></i>
+                        </div>
+                        <div class="kpi-value" id="kpi-revenue-risk">$17,149</div>
+                        <div class="kpi-footer">
+                            <span class="trend negative" id="kpi-risk-ratio">26.5% of MRR</span>
+                            <span class="footer-desc">from churned / high-risk</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charts Layout -->
+                <div class="charts-grid">
+                    <div class="chart-card glass-card">
+                        <div class="chart-header">
+                            <h3>Churn Rate by Contract Type</h3>
+                            <i class="fa-solid fa-circle-question" title="Percentage of customers who churned within each contract billing cycle"></i>
+                        </div>
+                        <div class="chart-wrapper">
+                            <canvas id="chart-contract-churn"></canvas>
+                        </div>
+                    </div>
+                    <div class="chart-card glass-card">
+                        <div class="chart-header">
+                            <h3>Churn Rate by Internet Service</h3>
+                            <i class="fa-solid fa-circle-question" title="Analyzing churn split across DSL, Fiber Optic, and Non-internet lines"></i>
+                        </div>
+                        <div class="chart-wrapper">
+                            <canvas id="chart-internet-churn"></canvas>
+                        </div>
+                    </div>
+                    <div class="chart-card glass-card span-col-2">
+                        <div class="chart-header">
+                            <h3>Tenure cohort Distribution & Churn Attrition</h3>
+                            <i class="fa-solid fa-circle-question" title="Bar shows total customer count; overlay line shows the churn rate by tenure length (months)"></i>
+                        </div>
+                        <div class="chart-wrapper">
+                            <canvas id="chart-tenure-churn"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Table View -->
+                <div class="table-card glass-card">
+                    <div class="table-header">
+                        <div class="header-left">
+                            <h3>Customer Transaction Register</h3>
+                            <span class="row-count" id="table-row-count">Showing 1,000 customers</span>
+                        </div>
+                        <div class="header-right">
+                            <div class="search-box">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <input type="text" id="table-search" placeholder="Search Customer ID...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-wrapper">
+                        <table id="customer-table">
+                            <thead>
+                                <tr>
+                                    <th>Customer ID</th>
+                                    <th>Gender</th>
+                                    <th>Tenure</th>
+                                    <th>Contract</th>
+                                    <th>Internet</th>
+                                    <th>Payment Method</th>
+                                    <th>Monthly Charge</th>
+                                    <th>Total Charges</th>
+                                    <th>Churn Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="customer-table-body">
+                                <!-- Populated dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-pagination">
+                        <button id="prev-page" class="btn-icon"><i class="fa-solid fa-chevron-left"></i></button>
+                        <span id="page-num-display">Page 1 of 50</span>
+                        <button id="next-page" class="btn-icon"><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Page 2: Python ETL Pipeline -->
+            <section id="python-etl-page" class="page-section">
+                <div class="page-header-desc">
+                    <h2>Pandas & NumPy Cleaning Pipeline</h2>
+                    <p>Clean raw incoming transactional data: standardizing inconsistent formats, handling missing inputs, and preparing arrays for dashboard serialization.</p>
+                </div>
+
+                <div class="etl-container">
+                    <!-- Source Code Panel -->
+                    <div class="code-panel glass-card">
+                        <div class="panel-tab-header">
+                            <div class="tab active"><i class="fa-brands fa-python"></i> data_cleaning.py</div>
+                            <button id="btn-run-pipeline" class="btn-primary animate-pulse">
+                                <i class="fa-solid fa-play"></i> Run ETL Pipeline
+                            </button>
+                        </div>
+                        <div class="code-view-container">
+                            <pre><code class="language-python"># data_cleaning.py
+import pandas as pd
+import numpy as np
+
+def clean_churn_data(input_path="customer_churn_raw.csv"):
+    # 1. Load raw dataset containing missing & formatting issues
+    df = pd.read_csv(input_path)
+    
+    # 2. Standardize Categorical Casing (Gender values like 'female'/'FEMALE')
+    df['gender'] = df['gender'].str.capitalize()
+    
+    # 3. Handle TotalCharges columns (strip white space & replace with NaN)
+    df['TotalCharges'] = df['TotalCharges'].replace(r'^\s*$', np.nan, regex=True)
+    df['TotalCharges'] = pd.to_numeric(df['TotalCharges'], errors='coerce')
+    
+    # 4. Impute missing charges values
+    # Case A: new customer (tenure = 0), set TotalCharges = 0.0
+    df.loc[(df['TotalCharges'].isnull()) & (df['tenure'] == 0), 'TotalCharges'] = 0.0
+    
+    # Case B: existing customer missing charges, impute: tenure * MonthlyCharges
+    missing_mask = (df['TotalCharges'].isnull()) & (df['tenure'] > 0)
+    df.loc[missing_mask, 'TotalCharges'] = round(df['tenure'] * df['MonthlyCharges'], 2)
+    
+    # 5. Remove duplicates based on unique Customer IDs
+    df.drop_duplicates(subset=['customerID'], keep='first', inplace=True)
+    
+    # 6. Save formatted file
+    df.to_csv("customer_churn_clean.csv", index=False)
+    print("ETL Pipeline completed successfully.")</code></pre>
+                        </div>
+                    </div>
+
+                    <!-- Pipeline Output Console -->
+                    <div class="console-panel glass-card">
+                        <div class="panel-tab-header">
+                            <div class="tab"><i class="fa-solid fa-terminal"></i> Terminal Logs</div>
+                        </div>
+                        <div class="console-wrapper">
+                            <div class="console-output" id="etl-console">
+                                <span class="system-line">Ready to execute. Click "Run ETL Pipeline" above...</span>
+                            </div>
+                        </div>
+                        <div class="diff-preview-wrapper" id="diff-section" style="display: none;">
+                            <h4>Data Imputation Preview (Raw vs. Cleaned Dataset)</h4>
+                            <div class="table-wrapper mini">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Customer ID</th>
+                                            <th>Tenure</th>
+                                            <th>Raw Gender</th>
+                                            <th>Clean Gender</th>
+                                            <th>Raw Total Charges</th>
+                                            <th>Cleaned Total Charges</th>
+                                            <th>Imputation Type</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="diff-table-body">
+                                        <!-- Populated post execution -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Page 3: SQL SQL Playground -->
+            <section id="sql-playground-page" class="page-section">
+                <div class="page-header-desc">
+                    <h2>SQL Analysis Playground</h2>
+                    <p>Select predefined analytic scripts to run queries directly against the loaded transactional dataset to discover cohort trends, monthly MRR at risk, and segments needing priority retention support.</p>
+                </div>
+
+                <div class="sql-playground-layout">
+                    <!-- Query List Sidebar -->
+                    <div class="sql-queries-sidebar glass-card">
+                        <h3>Analytics Templates</h3>
+                        <div class="sql-query-list">
+                            <div class="sql-query-item active" data-query="q-overall">
+                                <span class="query-num">01</span>
+                                <div class="query-info">
+                                    <h4>Overall Churn Rate</h4>
+                                    <span>Calculates macro KPI trends</span>
+                                </div>
+                            </div>
+                            <div class="sql-query-item" data-query="q-contract">
+                                <span class="query-num">02</span>
+                                <div class="query-info">
+                                    <h4>Contract Type Cohorts</h4>
+                                    <span>Analyzes billing cycle risk</span>
+                                </div>
+                            </div>
+                            <div class="sql-query-item" data-query="q-internet">
+                                <span class="query-num">03</span>
+                                <div class="query-info">
+                                    <h4>Internet Technology</h4>
+                                    <span>DSL vs Fiber Optic performance</span>
+                                </div>
+                            </div>
+                            <div class="sql-query-item" data-query="q-tenure">
+                                <span class="query-num">04</span>
+                                <div class="query-info">
+                                    <h4>Tenure Ranges</h4>
+                                    <span>Categorized customer lifespans</span>
+                                </div>
+                            </div>
+                            <div class="sql-query-item" data-query="q-mrr">
+                                <span class="query-num">05</span>
+                                <div class="query-info">
+                                    <h4>Revenue Leakage</h4>
+                                    <span>Financial implications of churn</span>
+                                </div>
+                            </div>
+                            <div class="sql-query-item" data-query="q-highrisk">
+                                <span class="query-num">06</span>
+                                <div class="query-info">
+                                    <h4>Top 10 Churn Risks</h4>
+                                    <span>Identify at-risk accounts</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Query Editor & Execution Output -->
+                    <div class="sql-editor-container">
+                        <div class="sql-editor-card glass-card">
+                            <div class="panel-tab-header">
+                                <div class="tab"><i class="fa-solid fa-code"></i> SQL Query Editor</div>
+                                <button id="btn-run-query" class="btn-success">
+                                    <i class="fa-solid fa-circle-play"></i> Run Query
+                                </button>
+                            </div>
+                            <div class="code-view-container">
+                                <pre><code id="sql-code-viewer" class="language-sql">-- Query will render here</code></pre>
+                            </div>
+                        </div>
+
+                        <!-- Results Grid -->
+                        <div class="sql-result-card glass-card">
+                            <div class="table-header">
+                                <div class="header-left">
+                                    <i class="fa-solid fa-table"></i>
+                                    <h3>Query Result Set</h3>
+                                </div>
+                                <span class="result-speed" id="sql-speed-display">Execution Time: 0ms</span>
+                            </div>
+                            <div class="table-wrapper mini">
+                                <table id="sql-result-table">
+                                    <thead id="sql-result-head">
+                                        <!-- Headers generated dynamically -->
+                                    </thead>
+                                    <tbody id="sql-result-body">
+                                        <!-- Rows generated dynamically -->
+                                        <tr>
+                                            <td colspan="4" class="table-placeholder">Click "Run Query" to execute the selected template.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Page 4: Retention Insights -->
+            <section id="insights-page" class="page-section">
+                <div class="page-header-desc">
+                    <h2>Retention Insights & Dynamic Strategies</h2>
+                    <p>Risk modeling engine that reviews currently selected filters to identify localized customer vulnerabilities, proposing data-driven campaigns and calculating retention impacts.</p>
+                </div>
+
+                <div class="insights-layout">
+                    <!-- Segment Assessment -->
+                    <div class="assessment-card glass-card">
+                        <h3>Segment Vulnerability Report</h3>
+                        <div class="gauge-container">
+                            <div class="gauge">
+                                <div class="gauge-body">
+                                    <div class="gauge-fill" id="insight-gauge-fill"></div>
+                                    <div class="gauge-cover" id="insight-gauge-val">26.5%</div>
+                                </div>
+                            </div>
+                            <div class="gauge-label">
+                                <h4 id="insight-risk-level">MEDIUM RISK</h4>
+                                <p id="insight-risk-text">Segment churn matches global benchmark. Focus efforts on month-to-month contracts.</p>
+                            </div>
+                        </div>
+
+                        <div class="risk-stats-rows">
+                            <div class="risk-stat-row">
+                                <span>Selected Segment Size:</span>
+                                <strong id="insight-segment-size">1,000 Customers</strong>
+                            </div>
+                            <div class="risk-stat-row">
+                                <span>Monthly Revenue:</span>
+                                <strong id="insight-segment-revenue">$64,720</strong>
+                            </div>
+                            <div class="risk-stat-row">
+                                <span>Projected Annual Loss:</span>
+                                <strong class="text-danger" id="insight-projected-loss">$205,788</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Recommended Campaigns & Simulators -->
+                    <div class="campaign-container">
+                        <div class="glass-card flex-grow">
+                            <h3>Recommended Retention Campaigns</h3>
+                            <div class="campaigns-list" id="campaigns-list-container">
+                                <!-- Loaded dynamically based on active filter state -->
+                            </div>
+                        </div>
+
+                        <div class="glass-card campaign-simulator-card">
+                            <h3>Retention Campaign Simulator</h3>
+                            <p class="subtitle">Simulate the financial benefits of deploying these retention packages to the selected segment.</p>
+                            
+                            <div class="simulation-sliders">
+                                <div class="simulator-slider-group">
+                                    <div class="slider-labels">
+                                        <label for="sim-take-rate">Campaign Adoption Rate</label>
+                                        <span id="sim-take-rate-val">20%</span>
+                                    </div>
+                                    <input type="range" id="sim-take-rate" min="5" max="80" value="20" class="slider">
+                                </div>
+                                <div class="simulator-slider-group">
+                                    <div class="slider-labels">
+                                        <label for="sim-success-rate">Conversion (Churn Reduction)</label>
+                                        <span id="sim-success-rate-val">30%</span>
+                                    </div>
+                                    <input type="range" id="sim-success-rate" min="10" max="90" value="30" class="slider">
+                                </div>
+                            </div>
+
+                            <div class="simulation-results">
+                                <div class="sim-result-box">
+                                    <span>Recovered MRR</span>
+                                    <h2 class="text-success" id="sim-recovered-mrr">$1,028</h2>
+                                </div>
+                                <div class="sim-result-box">
+                                    <span>Annual Savings</span>
+                                    <h2 class="text-success" id="sim-recovered-arr">$12,347</h2>
+                                </div>
+                                <div class="sim-result-box">
+                                    <span>New Churn Rate</span>
+                                    <h2 class="text-info" id="sim-new-churn">24.9%</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Load the datasets and scripts -->
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
