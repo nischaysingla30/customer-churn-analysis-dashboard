@@ -32,3 +32,12 @@ This processes `customer_churn_raw.csv` and outputs `customer_churn_clean.csv`.
 
 ### Viewing the Dashboard
 Simply open `index.html` in your web browser. You can filter customers by demographics, payment method, contract types, and tenure to visualize churn trends, inspect SQL analysis, run mock Python cleaning, and review data-driven retention insights.
+
+## ML Extension: Churn Prediction
+
+`churn_model.py` trains a Logistic Regression and a Random Forest on the cleaned data
+(stratified split, class weights, 5-fold CV AUC ~0.80) and scores active customers
+with a churn probability. Output: `churn_risk_scores.csv`.
+
+Main drivers: contract type and tenure. Note: the data is synthetic, so the model
+mainly recovers the patterns embedded by the generator.
