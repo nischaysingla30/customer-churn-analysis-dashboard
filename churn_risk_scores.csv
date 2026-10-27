@@ -1,0 +1,741 @@
+customerID,Contract,InternetService,tenure,MonthlyCharges,churn_probability,risk_tier
+7401-QILC,Month-to-month,Fiber optic,6,107.21,0.873,High
+9112-HSUA,Month-to-month,Fiber optic,1,115.63,0.871,High
+5491-TEEF,Month-to-month,Fiber optic,9,111.67,0.868,High
+4220-HVVA,Month-to-month,Fiber optic,7,111.57,0.848,High
+6343-JBKY,Month-to-month,Fiber optic,4,108.18,0.842,High
+1560-JFRM,Month-to-month,Fiber optic,9,119.93,0.805,High
+3785-NDAW,Month-to-month,Fiber optic,18,113.03,0.801,High
+4374-YWPJ,Month-to-month,Fiber optic,6,117.17,0.799,High
+2054-DQMR,Month-to-month,DSL,4,67.81,0.784,High
+8295-EOHJ,Month-to-month,DSL,1,75.91,0.772,High
+4020-BEQF,Month-to-month,Fiber optic,10,106.88,0.765,High
+9984-VADN,Month-to-month,DSL,6,64.69,0.744,High
+9931-FATW,Month-to-month,DSL,2,74.42,0.734,High
+7626-MOBK,Month-to-month,DSL,9,81.21,0.725,High
+9954-CTLG,Month-to-month,DSL,2,81.96,0.723,High
+1145-SDJA,Month-to-month,DSL,8,68.95,0.721,High
+9964-VHJF,Month-to-month,Fiber optic,4,115.23,0.719,High
+7352-WXRH,Month-to-month,DSL,7,79.47,0.706,High
+6732-UNDV,Month-to-month,Fiber optic,4,121.38,0.701,High
+1038-OWKT,Month-to-month,Fiber optic,15,120.38,0.695,High
+1025-YJMS,Month-to-month,DSL,2,70.12,0.694,High
+8084-QQQA,Month-to-month,Fiber optic,34,95.93,0.686,High
+1882-SPLL,One year,Fiber optic,0,114.71,0.683,High
+7773-IGNS,Two year,Fiber optic,2,109.11,0.682,High
+3911-GTIA,Month-to-month,DSL,14,77.35,0.663,High
+7793-WXGE,Month-to-month,Fiber optic,21,107.05,0.659,High
+4676-ISXQ,Month-to-month,Fiber optic,25,94.83,0.657,High
+4674-NQRM,Month-to-month,DSL,9,70.44,0.65,High
+6534-JCGP,Month-to-month,DSL,21,76.23,0.649,High
+1146-VOXH,Month-to-month,Fiber optic,23,114.78,0.647,High
+6330-GSSK,Month-to-month,DSL,29,69.98,0.634,High
+1459-QGIC,Month-to-month,Fiber optic,24,116.13,0.63,High
+2276-TOOX,Month-to-month,DSL,23,68.42,0.624,High
+5917-NTCC,Month-to-month,Fiber optic,19,118.11,0.592,High
+8875-JYGV,One year,Fiber optic,5,110.33,0.584,High
+4157-BJMY,Month-to-month,Fiber optic,23,117.03,0.583,High
+8851-AUII,Month-to-month,DSL,34,64.27,0.58,High
+2439-MSQU,One year,DSL,1,68.63,0.577,High
+7744-RKSE,Month-to-month,Fiber optic,30,106.69,0.571,High
+4913-KLML,Month-to-month,DSL,3,81.4,0.565,High
+5780-RBMM,Month-to-month,Fiber optic,14,117.56,0.556,High
+1719-KUDM,Month-to-month,DSL,4,88.81,0.556,High
+1086-QLWP,One year,Fiber optic,5,116.6,0.55,High
+1289-YQWU,Month-to-month,No,12,21.99,0.544,High
+7294-MTPR,Month-to-month,DSL,29,73.68,0.537,High
+1365-DKTO,One year,DSL,7,82.11,0.515,High
+1001-AAIM,Month-to-month,Fiber optic,29,113.23,0.514,High
+3594-GVIV,Month-to-month,Fiber optic,31,126.0,0.51,High
+8355-BBMX,Month-to-month,No,12,30.54,0.5,High
+8190-JJDH,Month-to-month,Fiber optic,23,108.79,0.5,High
+3914-IQQT,Month-to-month,DSL,23,73.52,0.498,Medium
+7456-UICT,Month-to-month,DSL,41,65.82,0.497,Medium
+4030-YAVW,Month-to-month,Fiber optic,29,113.57,0.495,Medium
+9556-VUWS,Month-to-month,DSL,24,64.95,0.489,Medium
+4173-NDFS,One year,Fiber optic,6,104.09,0.487,Medium
+6631-DBOB,Two year,Fiber optic,1,119.32,0.485,Medium
+8449-YVQM,Two year,Fiber optic,7,100.08,0.481,Medium
+7056-FELY,One year,DSL,3,74.27,0.478,Medium
+3491-EAHU,Month-to-month,Fiber optic,45,113.08,0.478,Medium
+2205-XYGT,Month-to-month,Fiber optic,30,106.36,0.477,Medium
+1364-NXSG,Two year,DSL,2,72.84,0.474,Medium
+7968-VIOE,Two year,DSL,0,71.13,0.474,Medium
+6951-KYAK,Two year,Fiber optic,0,115.07,0.47,Medium
+4940-TLAH,Month-to-month,DSL,14,81.9,0.47,Medium
+2218-QAPL,Month-to-month,Fiber optic,41,95.36,0.467,Medium
+4554-OBUB,Month-to-month,DSL,32,73.57,0.466,Medium
+4104-RPIS,Month-to-month,Fiber optic,25,117.38,0.466,Medium
+4041-JWLQ,Month-to-month,DSL,30,74.16,0.465,Medium
+5005-FVYR,Month-to-month,Fiber optic,30,121.66,0.465,Medium
+3278-YTBG,One year,Fiber optic,7,101.71,0.461,Medium
+5261-AXOW,Two year,DSL,1,82.53,0.46,Medium
+6925-OUCY,Two year,Fiber optic,1,120.6,0.457,Medium
+9569-WRJU,One year,Fiber optic,4,119.22,0.454,Medium
+5358-URCJ,Month-to-month,Fiber optic,41,98.98,0.454,Medium
+3632-OQYX,Month-to-month,DSL,19,84.45,0.45,Medium
+7570-MUWK,One year,DSL,8,79.6,0.449,Medium
+5876-XOYI,Month-to-month,Fiber optic,17,108.04,0.448,Medium
+3461-TULS,Month-to-month,Fiber optic,29,110.02,0.446,Medium
+3159-MITD,Month-to-month,DSL,27,74.18,0.446,Medium
+1827-KLLD,One year,Fiber optic,10,104.5,0.446,Medium
+4716-WIYI,Two year,Fiber optic,11,110.37,0.444,Medium
+3258-WXKN,Two year,Fiber optic,4,114.57,0.439,Medium
+9320-WHFE,Month-to-month,Fiber optic,29,113.12,0.435,Medium
+3327-QNUC,Month-to-month,DSL,17,65.06,0.432,Medium
+7028-WREY,Month-to-month,Fiber optic,15,113.18,0.431,Medium
+4748-FXBV,One year,Fiber optic,15,105.0,0.426,Medium
+4432-AETH,Month-to-month,Fiber optic,28,119.83,0.426,Medium
+6016-BLJI,Month-to-month,DSL,35,81.16,0.424,Medium
+1342-OHLV,Month-to-month,No,9,33.22,0.423,Medium
+3745-REID,Month-to-month,No,8,37.62,0.423,Medium
+5396-DGQI,Month-to-month,Fiber optic,34,106.57,0.417,Medium
+2742-JIAP,Two year,Fiber optic,4,112.84,0.417,Medium
+4385-VLYQ,One year,Fiber optic,12,105.14,0.414,Medium
+3591-WEDN,Month-to-month,DSL,26,81.17,0.414,Medium
+1628-CCQG,Month-to-month,DSL,17,66.08,0.407,Medium
+7361-JQBF,Month-to-month,Fiber optic,26,102.65,0.407,Medium
+6626-AFOB,One year,DSL,17,80.54,0.407,Medium
+2363-TUCQ,One year,DSL,12,77.55,0.405,Medium
+3472-EFTB,Month-to-month,Fiber optic,37,109.48,0.404,Medium
+1689-AGFO,Two year,DSL,0,64.04,0.397,Medium
+7229-LYQM,One year,DSL,12,73.91,0.397,Medium
+3066-WGLO,Month-to-month,No,15,31.0,0.397,Medium
+2772-BIXH,One year,DSL,18,95.91,0.39,Medium
+7488-BKRX,Month-to-month,DSL,19,78.5,0.388,Medium
+4391-VHKI,One year,DSL,9,75.83,0.386,Medium
+8462-RCAX,Two year,DSL,13,62.99,0.385,Medium
+3297-KYUD,Month-to-month,No,11,36.22,0.379,Medium
+4471-EYTJ,Month-to-month,No,32,21.03,0.378,Medium
+7846-DMWH,Two year,DSL,8,71.99,0.376,Medium
+1130-EKHW,Month-to-month,DSL,36,73.04,0.376,Medium
+5000-BICA,One year,Fiber optic,9,99.28,0.373,Medium
+1383-FYOC,Month-to-month,Fiber optic,46,114.56,0.371,Medium
+4093-SYEH,Month-to-month,No,7,32.5,0.368,Medium
+1133-LMMO,Two year,Fiber optic,6,108.22,0.368,Medium
+8385-WNGI,Month-to-month,DSL,35,97.07,0.364,Medium
+9181-OTJC,Month-to-month,DSL,24,85.72,0.364,Medium
+9312-AFFU,Month-to-month,No,20,36.32,0.364,Medium
+6109-SNHI,One year,Fiber optic,10,103.04,0.363,Medium
+1968-ETAW,One year,Fiber optic,20,109.85,0.362,Medium
+5652-DNVK,Two year,Fiber optic,21,116.87,0.361,Medium
+1009-EWJL,Month-to-month,DSL,45,80.54,0.359,Medium
+9512-EIQI,Month-to-month,DSL,41,86.22,0.358,Medium
+3817-YIAK,Month-to-month,Fiber optic,42,117.56,0.356,Medium
+9004-TBFV,One year,Fiber optic,11,108.5,0.355,Medium
+2762-TKQM,Month-to-month,No,24,22.86,0.355,Medium
+7132-MLPA,One year,Fiber optic,7,127.69,0.355,Medium
+4741-MOWQ,Month-to-month,Fiber optic,36,113.55,0.353,Medium
+3097-CMKQ,Two year,Fiber optic,8,115.54,0.353,Medium
+4551-JVYQ,One year,Fiber optic,8,114.51,0.352,Medium
+3964-SVKP,Two year,DSL,7,63.28,0.352,Medium
+6776-WBJP,Month-to-month,No,25,32.17,0.345,Medium
+4419-HGBV,Two year,DSL,15,68.97,0.344,Medium
+5424-FKVX,Month-to-month,Fiber optic,52,113.67,0.342,Medium
+4361-XEGD,Month-to-month,Fiber optic,48,103.35,0.341,Medium
+1011-EBPE,Month-to-month,DSL,34,86.92,0.341,Medium
+2361-FSDM,Month-to-month,DSL,51,76.07,0.341,Medium
+3371-LMBS,One year,Fiber optic,24,112.31,0.34,Medium
+8967-MNTR,Two year,Fiber optic,25,110.39,0.337,Medium
+1282-RKHF,One year,Fiber optic,10,99.39,0.336,Medium
+9717-WNXB,Month-to-month,DSL,49,68.92,0.334,Medium
+3230-AQCO,Month-to-month,DSL,44,88.91,0.333,Medium
+6433-KYWP,Month-to-month,Fiber optic,31,110.92,0.331,Medium
+3555-BGCH,Month-to-month,Fiber optic,42,99.11,0.327,Medium
+9038-CJJS,Month-to-month,Fiber optic,37,96.82,0.327,Medium
+1593-HCIT,Month-to-month,Fiber optic,44,107.32,0.326,Medium
+6208-PMIU,One year,Fiber optic,21,121.87,0.325,Medium
+7190-IQNO,Month-to-month,Fiber optic,25,117.95,0.324,Medium
+8274-BYIQ,Month-to-month,No,27,35.76,0.324,Medium
+7796-FQNQ,Two year,Fiber optic,8,98.88,0.321,Medium
+2256-ORUM,Month-to-month,No,20,37.42,0.319,Medium
+3700-NTOP,Month-to-month,Fiber optic,38,116.97,0.318,Medium
+1206-LHVT,Month-to-month,No,23,30.9,0.318,Medium
+4604-MBDF,One year,Fiber optic,8,109.26,0.317,Medium
+4036-FKBW,Month-to-month,Fiber optic,30,106.44,0.317,Medium
+2517-SKMN,Two year,DSL,14,92.1,0.316,Medium
+7297-HEUN,Month-to-month,Fiber optic,46,108.16,0.315,Medium
+1602-NHSN,Month-to-month,DSL,34,78.66,0.312,Medium
+1948-NTND,Month-to-month,DSL,35,80.28,0.311,Medium
+9501-UHQP,Month-to-month,Fiber optic,40,105.07,0.311,Medium
+4277-XWCR,Month-to-month,Fiber optic,32,103.75,0.311,Medium
+6291-BFQC,Two year,Fiber optic,25,104.22,0.311,Medium
+7787-YKGL,Two year,DSL,7,67.9,0.311,Medium
+7212-XADO,Month-to-month,Fiber optic,47,112.21,0.31,Medium
+1238-MPQU,Month-to-month,DSL,46,77.97,0.308,Medium
+1572-KYTP,One year,DSL,4,86.43,0.307,Medium
+5211-HVLD,Two year,Fiber optic,12,104.46,0.307,Medium
+1984-QUHO,Month-to-month,Fiber optic,49,113.46,0.307,Medium
+7376-LNBQ,Month-to-month,DSL,53,58.52,0.307,Medium
+3378-AVFP,Month-to-month,DSL,39,74.05,0.305,Medium
+7917-IGIR,Two year,Fiber optic,1,112.29,0.305,Medium
+7303-TXLR,Month-to-month,Fiber optic,44,115.1,0.303,Medium
+8575-UHDH,Month-to-month,DSL,29,75.03,0.302,Medium
+6299-WDRW,One year,Fiber optic,19,108.73,0.302,Medium
+8186-RANS,Two year,DSL,25,60.12,0.301,Medium
+3811-DSCS,One year,DSL,2,72.91,0.3,Medium
+1685-LYTX,One year,DSL,24,76.78,0.3,Medium
+5741-WBXN,Month-to-month,No,23,31.17,0.299,Medium
+1680-IMFF,Two year,DSL,20,80.72,0.295,Medium
+9220-KAFO,Month-to-month,Fiber optic,38,121.36,0.291,Medium
+7469-VDST,Month-to-month,Fiber optic,54,109.12,0.288,Medium
+8062-OKJC,Month-to-month,Fiber optic,36,108.35,0.285,Medium
+4740-SDWG,Month-to-month,Fiber optic,50,108.61,0.284,Medium
+2855-CSLP,Month-to-month,No,3,31.28,0.283,Medium
+3787-IVXW,One year,No,1,32.46,0.283,Medium
+1009-XRME,Month-to-month,DSL,61,65.29,0.281,Medium
+2960-FYMU,One year,Fiber optic,1,109.27,0.281,Medium
+2240-KHJY,Two year,Fiber optic,21,110.6,0.276,Medium
+4893-IXXA,Two year,DSL,0,68.21,0.276,Medium
+9914-QMPH,One year,Fiber optic,28,106.33,0.276,Medium
+4278-PQBR,Two year,DSL,20,75.53,0.275,Medium
+4486-AUVV,Month-to-month,DSL,49,82.97,0.274,Medium
+2913-QJCR,Month-to-month,No,37,35.97,0.271,Medium
+2827-DNII,Month-to-month,DSL,49,74.5,0.269,Medium
+7166-ONKL,Month-to-month,Fiber optic,42,116.02,0.269,Medium
+1074-FRUJ,Month-to-month,DSL,44,94.09,0.266,Medium
+1825-URMK,Month-to-month,Fiber optic,59,87.95,0.266,Medium
+9434-HEDX,Two year,DSL,19,79.03,0.266,Medium
+4292-TDFG,Month-to-month,No,22,31.58,0.263,Medium
+4177-SQED,Month-to-month,DSL,65,55.37,0.261,Medium
+7142-ODGM,Month-to-month,DSL,31,85.6,0.26,Medium
+7731-YNOP,One year,DSL,10,69.42,0.259,Medium
+1671-XKTX,Month-to-month,No,17,36.53,0.259,Medium
+2324-DDFS,Month-to-month,No,46,21.48,0.259,Medium
+4670-EXQS,One year,Fiber optic,17,110.72,0.258,Medium
+2772-IDEK,Month-to-month,Fiber optic,57,104.2,0.257,Medium
+8081-SNJO,Month-to-month,Fiber optic,55,115.8,0.251,Medium
+9684-JLBW,One year,DSL,19,72.04,0.251,Medium
+7246-EHYN,Month-to-month,DSL,51,74.89,0.25,Medium
+6791-FWDW,Month-to-month,No,28,36.89,0.249,Low
+1331-SOIG,Month-to-month,DSL,41,75.96,0.248,Low
+4970-HLAJ,One year,Fiber optic,32,98.77,0.248,Low
+7976-KGQT,Month-to-month,Fiber optic,38,127.62,0.248,Low
+1529-HUOA,Two year,DSL,16,61.73,0.247,Low
+1302-HQLH,Month-to-month,Fiber optic,55,116.22,0.246,Low
+8446-SHVE,Month-to-month,Fiber optic,60,110.59,0.246,Low
+9711-MJHD,Month-to-month,No,7,31.25,0.245,Low
+6448-NSGP,Month-to-month,DSL,45,74.29,0.244,Low
+3322-ELQQ,Month-to-month,DSL,54,83.99,0.243,Low
+5937-RVRC,One year,Fiber optic,36,93.43,0.242,Low
+1990-CUDJ,Month-to-month,Fiber optic,43,105.33,0.242,Low
+5986-KJYT,Month-to-month,Fiber optic,53,109.93,0.242,Low
+4750-VLXO,Month-to-month,Fiber optic,67,108.31,0.24,Low
+3224-FPXL,Month-to-month,DSL,48,86.99,0.24,Low
+5658-VIYG,One year,Fiber optic,36,93.41,0.239,Low
+2378-OPRN,Month-to-month,DSL,28,84.74,0.238,Low
+8742-QLPO,Month-to-month,No,24,31.64,0.237,Low
+7708-LOUJ,Two year,DSL,24,92.22,0.236,Low
+7996-NBKS,Month-to-month,Fiber optic,35,119.46,0.234,Low
+5200-EAQV,Month-to-month,DSL,55,84.56,0.233,Low
+5737-VWEA,Two year,Fiber optic,31,112.61,0.232,Low
+7588-LVGJ,One year,No,3,31.74,0.232,Low
+1615-YHMB,One year,Fiber optic,22,115.17,0.231,Low
+9623-AUNO,One year,Fiber optic,13,107.76,0.231,Low
+4594-JBCW,Month-to-month,DSL,67,73.09,0.231,Low
+6991-DOTY,Month-to-month,No,30,32.92,0.231,Low
+1206-OJMS,One year,DSL,24,68.77,0.229,Low
+6691-LLEG,Month-to-month,DSL,51,71.65,0.229,Low
+7538-GEQX,Month-to-month,DSL,41,86.76,0.229,Low
+4230-IKDB,Month-to-month,DSL,59,74.8,0.229,Low
+2994-OXFW,Month-to-month,Fiber optic,53,115.63,0.227,Low
+2895-KCFI,Month-to-month,No,21,32.0,0.226,Low
+7474-MRKL,Month-to-month,Fiber optic,49,121.29,0.225,Low
+7381-GWLK,One year,DSL,15,87.65,0.225,Low
+8041-MHBT,Month-to-month,Fiber optic,52,105.23,0.224,Low
+9352-DANU,Month-to-month,Fiber optic,44,117.13,0.223,Low
+4876-HJQI,Month-to-month,DSL,50,86.58,0.222,Low
+3349-SDFJ,Month-to-month,No,15,32.85,0.22,Low
+9245-OWQI,One year,Fiber optic,18,108.86,0.22,Low
+2932-CFHL,One year,DSL,9,73.69,0.22,Low
+5175-VUKE,Month-to-month,No,53,21.1,0.219,Low
+1863-GQTD,Month-to-month,DSL,40,89.75,0.218,Low
+8397-HRCV,Month-to-month,Fiber optic,57,109.39,0.217,Low
+4462-HAYW,Month-to-month,Fiber optic,42,120.51,0.216,Low
+5757-VAQK,Month-to-month,DSL,56,85.83,0.215,Low
+5236-VABP,Month-to-month,No,34,32.92,0.213,Low
+6233-HMSC,Month-to-month,DSL,45,70.78,0.21,Low
+6475-IFBQ,Month-to-month,DSL,40,80.0,0.21,Low
+3385-EMDQ,Two year,No,10,30.88,0.21,Low
+8427-FKCH,Month-to-month,Fiber optic,58,107.5,0.208,Low
+5888-IUTS,One year,Fiber optic,26,106.35,0.208,Low
+3141-NTEL,Month-to-month,Fiber optic,51,98.31,0.208,Low
+8331-SAJD,One year,DSL,21,77.18,0.206,Low
+9234-PWFN,Month-to-month,DSL,47,79.82,0.206,Low
+6789-UMUS,One year,Fiber optic,31,115.62,0.206,Low
+4062-AQXB,Two year,DSL,24,79.66,0.205,Low
+7612-NWPR,Two year,Fiber optic,27,102.3,0.205,Low
+1919-RQDW,Month-to-month,No,44,37.89,0.205,Low
+7644-CVFN,One year,DSL,22,79.32,0.205,Low
+5780-HWUW,Two year,DSL,21,86.52,0.205,Low
+6913-UVGN,Month-to-month,DSL,46,83.07,0.204,Low
+8374-UKPY,Month-to-month,Fiber optic,51,112.63,0.204,Low
+8561-KUGR,Month-to-month,DSL,40,79.99,0.204,Low
+7002-WOBB,Two year,DSL,20,71.52,0.203,Low
+9050-VWVN,One year,Fiber optic,36,120.17,0.203,Low
+4310-ECSA,Month-to-month,Fiber optic,49,113.76,0.202,Low
+3274-FGTW,Month-to-month,No,38,36.12,0.201,Low
+9445-CPYC,Two year,DSL,33,78.97,0.199,Low
+4581-GBCQ,Two year,Fiber optic,20,112.21,0.198,Low
+6842-LEJQ,Month-to-month,DSL,48,62.84,0.198,Low
+3427-AASK,One year,Fiber optic,32,104.61,0.197,Low
+2279-IBUL,Month-to-month,No,32,34.49,0.196,Low
+3581-FLOY,One year,Fiber optic,36,94.59,0.195,Low
+9322-VUBX,Month-to-month,DSL,62,76.8,0.195,Low
+7284-WVVU,Month-to-month,DSL,53,89.56,0.195,Low
+3524-QPLC,Month-to-month,DSL,38,79.68,0.194,Low
+4553-RMIW,Month-to-month,Fiber optic,58,124.29,0.193,Low
+2787-MORS,Month-to-month,DSL,54,75.35,0.191,Low
+2460-DHQI,Two year,DSL,24,93.72,0.189,Low
+4943-DBFV,Month-to-month,No,37,30.38,0.189,Low
+1658-BIMO,Month-to-month,No,52,22.64,0.189,Low
+4042-RJGQ,Month-to-month,No,29,32.51,0.189,Low
+3827-RDVQ,Month-to-month,Fiber optic,52,109.47,0.188,Low
+6622-PDKX,One year,DSL,21,87.2,0.187,Low
+2100-YYBC,Two year,No,3,33.74,0.187,Low
+1728-VMSQ,Month-to-month,Fiber optic,66,105.68,0.187,Low
+4227-POQH,Two year,Fiber optic,23,122.51,0.186,Low
+6906-ILKN,One year,DSL,30,68.79,0.186,Low
+8186-WWFV,Two year,DSL,32,74.97,0.185,Low
+7881-FRBR,Month-to-month,DSL,50,64.11,0.185,Low
+3720-JHRA,One year,DSL,41,67.4,0.184,Low
+4850-HKDQ,Month-to-month,Fiber optic,38,108.66,0.184,Low
+9560-UWOT,Month-to-month,No,42,23.52,0.183,Low
+4490-QELR,One year,DSL,10,81.32,0.183,Low
+7122-BIBU,Two year,Fiber optic,34,116.79,0.183,Low
+9666-JPOO,Two year,Fiber optic,20,107.98,0.182,Low
+3745-LVUJ,Month-to-month,Fiber optic,43,124.51,0.182,Low
+4493-JUJM,Month-to-month,Fiber optic,40,111.01,0.18,Low
+4875-VKHL,Month-to-month,DSL,55,69.7,0.18,Low
+6334-KKRO,Month-to-month,No,21,37.66,0.18,Low
+3217-TFYN,Month-to-month,DSL,49,85.39,0.179,Low
+6679-TOYU,Two year,DSL,13,65.3,0.178,Low
+9831-CDYO,Month-to-month,DSL,57,70.73,0.177,Low
+4138-PGTN,Month-to-month,DSL,50,90.4,0.176,Low
+3708-QWEV,Month-to-month,No,32,31.53,0.175,Low
+6102-KKAQ,Month-to-month,No,44,22.69,0.175,Low
+4763-QQTL,Month-to-month,Fiber optic,52,117.66,0.172,Low
+4253-TXKY,Month-to-month,DSL,65,76.66,0.172,Low
+5356-AHLX,One year,Fiber optic,41,114.96,0.171,Low
+7915-VGKV,Month-to-month,DSL,42,80.19,0.171,Low
+9960-EVFU,Month-to-month,Fiber optic,61,114.02,0.171,Low
+9623-MDWQ,Month-to-month,DSL,54,88.14,0.171,Low
+4456-MSXC,One year,Fiber optic,25,120.58,0.17,Low
+1002-VNHW,Month-to-month,Fiber optic,53,108.42,0.169,Low
+8938-NMMB,One year,No,12,36.4,0.167,Low
+2424-FAEY,Month-to-month,DSL,55,71.63,0.167,Low
+1270-CEAC,One year,DSL,28,83.62,0.166,Low
+4384-DFIV,Month-to-month,No,47,31.83,0.166,Low
+1778-NRUU,Month-to-month,No,41,34.39,0.164,Low
+1241-GCMO,Two year,Fiber optic,26,115.51,0.164,Low
+8427-AOHL,One year,Fiber optic,35,114.52,0.163,Low
+3403-BNML,Month-to-month,Fiber optic,62,125.76,0.163,Low
+2184-CRYJ,Month-to-month,DSL,60,83.47,0.163,Low
+6393-DYNR,Month-to-month,No,36,31.57,0.163,Low
+6423-LEEW,Month-to-month,Fiber optic,56,120.95,0.162,Low
+6876-VJLJ,One year,DSL,19,79.14,0.162,Low
+2762-INID,One year,DSL,19,86.05,0.161,Low
+9088-COFQ,One year,Fiber optic,34,114.91,0.161,Low
+7941-OSBT,Month-to-month,Fiber optic,56,108.38,0.159,Low
+9662-AYXW,Month-to-month,Fiber optic,53,114.49,0.159,Low
+7980-XXCK,Month-to-month,Fiber optic,63,112.18,0.158,Low
+7736-HCCA,One year,DSL,41,70.65,0.156,Low
+3103-NXHG,Month-to-month,DSL,50,83.84,0.156,Low
+2828-EKFG,Month-to-month,Fiber optic,58,114.78,0.156,Low
+4216-YYBC,Two year,Fiber optic,37,100.64,0.155,Low
+5804-UJSY,Two year,No,7,32.61,0.154,Low
+1816-GUAQ,Month-to-month,DSL,57,86.98,0.154,Low
+7971-TFLB,Two year,No,17,33.1,0.153,Low
+3005-ADMW,Two year,No,15,32.9,0.152,Low
+4792-CESL,Month-to-month,No,39,32.02,0.151,Low
+8031-WKUL,Month-to-month,Fiber optic,57,109.74,0.151,Low
+5183-LMVK,One year,Fiber optic,33,109.52,0.15,Low
+3093-JFPF,Two year,DSL,20,67.76,0.149,Low
+7318-WUUK,Two year,Fiber optic,33,116.97,0.147,Low
+9135-JTOO,Month-to-month,No,50,37.4,0.145,Low
+7905-SEGU,Month-to-month,No,25,32.07,0.143,Low
+5757-RUQG,Two year,Fiber optic,33,114.03,0.143,Low
+9252-RCAK,Month-to-month,No,41,31.89,0.143,Low
+1205-YPOV,Two year,DSL,49,61.11,0.143,Low
+3871-SUCL,Month-to-month,No,45,32.31,0.142,Low
+9080-WXMS,Month-to-month,No,51,32.84,0.142,Low
+5179-FSYE,Two year,Fiber optic,30,102.28,0.142,Low
+6779-AHWW,One year,No,9,36.12,0.142,Low
+6986-TVLX,Month-to-month,Fiber optic,59,114.21,0.142,Low
+7716-LFHS,Two year,Fiber optic,29,112.89,0.141,Low
+2348-PTEC,Month-to-month,No,41,31.97,0.141,Low
+7089-RRQH,Month-to-month,DSL,57,75.38,0.14,Low
+5926-DAHW,One year,DSL,41,79.74,0.139,Low
+1559-YHMU,Month-to-month,Fiber optic,53,102.07,0.139,Low
+9801-YMAQ,Month-to-month,No,39,31.42,0.139,Low
+5063-UYAW,Two year,DSL,35,69.34,0.137,Low
+3866-UDSU,Month-to-month,DSL,71,81.54,0.137,Low
+7409-UOVS,Month-to-month,DSL,50,72.16,0.136,Low
+2837-RPFY,Month-to-month,DSL,54,80.83,0.136,Low
+8010-HNNJ,Month-to-month,No,44,37.56,0.136,Low
+8896-MFLI,Two year,Fiber optic,29,113.55,0.136,Low
+9636-KFHD,Month-to-month,DSL,54,87.81,0.135,Low
+9024-GQAV,Month-to-month,DSL,56,77.93,0.135,Low
+9226-NQDR,One year,DSL,29,89.86,0.134,Low
+8513-UBTO,Month-to-month,Fiber optic,63,115.59,0.134,Low
+6352-BOEV,Two year,DSL,28,78.81,0.134,Low
+8473-YGXO,Month-to-month,Fiber optic,65,96.82,0.133,Low
+9858-BSAY,Month-to-month,No,35,31.17,0.133,Low
+3504-UXBV,Month-to-month,Fiber optic,69,103.57,0.131,Low
+1988-UOPE,Two year,DSL,34,73.61,0.131,Low
+1423-XNFW,Month-to-month,Fiber optic,58,122.12,0.131,Low
+5025-GTYL,Month-to-month,DSL,59,83.81,0.13,Low
+9442-GKTP,One year,DSL,29,81.83,0.129,Low
+8843-CIHA,Month-to-month,Fiber optic,66,108.57,0.129,Low
+9906-SODU,Month-to-month,DSL,70,80.99,0.129,Low
+3841-QHGG,One year,No,7,37.86,0.129,Low
+7238-KVPH,Two year,Fiber optic,8,109.4,0.129,Low
+7963-FWDF,Month-to-month,Fiber optic,67,121.09,0.128,Low
+7731-IJLQ,Month-to-month,Fiber optic,64,115.6,0.128,Low
+6906-JRCK,Month-to-month,Fiber optic,71,107.37,0.128,Low
+8421-EWJV,One year,DSL,28,83.38,0.127,Low
+4900-VUFA,Month-to-month,DSL,62,81.63,0.127,Low
+9616-ABPA,One year,DSL,45,70.67,0.127,Low
+8099-VVUU,Month-to-month,Fiber optic,66,119.74,0.127,Low
+9125-XWOK,One year,No,8,37.09,0.125,Low
+6342-FBTK,Month-to-month,No,67,22.9,0.125,Low
+2388-KAXV,Month-to-month,Fiber optic,48,110.02,0.124,Low
+5611-PXPW,Month-to-month,Fiber optic,60,109.5,0.124,Low
+1770-RLAV,Month-to-month,Fiber optic,55,109.17,0.123,Low
+7539-SWRQ,Month-to-month,DSL,65,66.57,0.123,Low
+9148-XJHB,Month-to-month,Fiber optic,69,111.55,0.122,Low
+9646-JMQU,Month-to-month,Fiber optic,68,97.55,0.122,Low
+9915-PBBC,Month-to-month,No,45,36.66,0.122,Low
+4171-DRQS,Month-to-month,DSL,42,71.5,0.12,Low
+7356-RMUU,Month-to-month,DSL,48,81.3,0.12,Low
+8878-TDHT,Month-to-month,Fiber optic,49,122.4,0.12,Low
+6387-OIMO,Month-to-month,No,46,38.27,0.12,Low
+7748-VHUS,Month-to-month,DSL,45,81.74,0.119,Low
+9751-UXVD,Two year,Fiber optic,44,117.77,0.119,Low
+3346-PBHK,Month-to-month,DSL,60,71.51,0.118,Low
+7801-SPBH,Two year,Fiber optic,19,114.5,0.118,Low
+1891-WHRU,Two year,DSL,30,78.54,0.118,Low
+7410-MUHH,Two year,Fiber optic,10,123.17,0.118,Low
+5592-KUTW,Month-to-month,No,50,36.43,0.117,Low
+8353-PHAL,Month-to-month,Fiber optic,56,122.16,0.116,Low
+8239-WIOO,Two year,No,17,37.8,0.115,Low
+9357-KMYA,Two year,No,18,36.94,0.115,Low
+6784-HNYR,One year,DSL,38,51.74,0.112,Low
+4180-HIPS,Month-to-month,Fiber optic,69,102.38,0.111,Low
+8526-FHIE,Month-to-month,Fiber optic,67,106.48,0.11,Low
+9307-TURD,Month-to-month,No,42,33.92,0.109,Low
+2715-BISO,Month-to-month,No,70,20.89,0.109,Low
+6895-BUAO,Two year,DSL,38,78.74,0.109,Low
+1285-UTFV,Month-to-month,DSL,64,88.3,0.108,Low
+8970-CREL,Month-to-month,DSL,67,90.25,0.108,Low
+9335-UECL,Month-to-month,DSL,56,81.64,0.108,Low
+6105-FIAI,One year,No,22,35.69,0.108,Low
+7376-IXEQ,One year,DSL,26,66.3,0.108,Low
+2929-XVCE,One year,No,19,32.76,0.107,Low
+3743-YLKE,Month-to-month,Fiber optic,65,109.09,0.107,Low
+7534-GFUT,One year,DSL,25,78.93,0.107,Low
+9007-RWRT,One year,No,21,30.54,0.106,Low
+8378-EDOD,Month-to-month,No,56,38.02,0.106,Low
+8262-DLWB,Month-to-month,Fiber optic,63,111.92,0.106,Low
+6668-MHHE,Month-to-month,Fiber optic,71,105.09,0.106,Low
+6989-CUWE,Month-to-month,DSL,65,87.53,0.105,Low
+2693-FFMS,Month-to-month,DSL,62,88.42,0.105,Low
+7588-IARU,Month-to-month,Fiber optic,52,121.39,0.104,Low
+6585-LWNB,Two year,DSL,32,81.62,0.103,Low
+5777-FOVK,Month-to-month,Fiber optic,69,104.16,0.103,Low
+3672-IQXI,Month-to-month,Fiber optic,70,126.76,0.103,Low
+4775-VQIA,Two year,Fiber optic,42,109.33,0.103,Low
+5437-ETJL,Month-to-month,No,65,22.93,0.103,Low
+2678-KDMG,Month-to-month,No,57,31.88,0.102,Low
+5670-OAYQ,Month-to-month,DSL,52,84.56,0.102,Low
+6755-XJFV,Month-to-month,No,47,32.15,0.102,Low
+1417-SIGD,Month-to-month,DSL,64,75.47,0.101,Low
+8758-YQRV,Month-to-month,DSL,66,80.81,0.101,Low
+1922-DGVJ,Month-to-month,DSL,67,75.5,0.099,Low
+5624-BFNF,Two year,Fiber optic,40,120.94,0.098,Low
+9228-PMEM,Month-to-month,No,42,38.17,0.098,Low
+4046-UOOD,Month-to-month,Fiber optic,66,117.12,0.097,Low
+3679-NWQR,Month-to-month,Fiber optic,64,117.58,0.097,Low
+5703-IDUB,Month-to-month,Fiber optic,63,102.56,0.097,Low
+9468-TXYM,Month-to-month,DSL,61,80.83,0.097,Low
+8629-WYHU,Month-to-month,DSL,57,83.97,0.097,Low
+4607-LKQD,Month-to-month,DSL,50,86.82,0.097,Low
+4186-QNIH,One year,Fiber optic,38,112.13,0.095,Low
+1018-CJHO,Month-to-month,Fiber optic,54,127.6,0.095,Low
+8165-UHNH,Month-to-month,No,52,32.31,0.095,Low
+7868-XLJV,Month-to-month,Fiber optic,62,110.6,0.095,Low
+1395-ISLI,Month-to-month,Fiber optic,61,110.38,0.094,Low
+4636-EJJS,Month-to-month,Fiber optic,71,111.87,0.094,Low
+4760-CMNX,Month-to-month,No,62,37.89,0.093,Low
+1489-QIFK,Month-to-month,Fiber optic,69,100.22,0.093,Low
+6788-ATGD,Month-to-month,Fiber optic,58,109.1,0.093,Low
+1876-FEYA,Month-to-month,Fiber optic,68,117.47,0.093,Low
+3179-WJTO,Month-to-month,DSL,62,87.93,0.093,Low
+8909-UVHG,Month-to-month,Fiber optic,59,122.66,0.093,Low
+8206-JWCR,One year,DSL,28,75.28,0.092,Low
+5263-BLMY,Two year,DSL,42,76.96,0.092,Low
+5033-MYGI,Two year,Fiber optic,41,118.49,0.092,Low
+4273-BIQK,Month-to-month,Fiber optic,65,94.92,0.091,Low
+3033-DREY,Two year,DSL,49,79.9,0.091,Low
+8178-NGWO,Month-to-month,Fiber optic,64,121.55,0.091,Low
+5612-JAVF,Two year,DSL,35,83.74,0.09,Low
+4747-LHBV,Two year,Fiber optic,49,105.96,0.09,Low
+1521-OQHR,Two year,Fiber optic,29,117.29,0.089,Low
+8400-CSPP,One year,DSL,30,81.35,0.089,Low
+1202-XQFX,Month-to-month,No,61,32.56,0.089,Low
+1137-XQJQ,One year,DSL,41,65.82,0.088,Low
+5887-YMIO,Two year,DSL,49,74.14,0.088,Low
+6388-EQCG,Two year,No,30,21.33,0.087,Low
+1264-TFRF,Month-to-month,DSL,55,82.2,0.086,Low
+8192-TUDU,Month-to-month,Fiber optic,64,103.23,0.086,Low
+1830-SWEU,Month-to-month,DSL,68,66.26,0.086,Low
+9490-JCMC,One year,Fiber optic,46,119.27,0.086,Low
+3027-HXKS,Month-to-month,Fiber optic,64,103.6,0.085,Low
+8576-XAFU,One year,DSL,49,91.08,0.085,Low
+2636-QXQQ,Month-to-month,Fiber optic,61,103.73,0.085,Low
+7241-YCPB,One year,DSL,51,72.06,0.085,Low
+3783-UNEF,One year,DSL,59,57.23,0.085,Low
+7012-DPUT,One year,No,23,38.14,0.084,Low
+3953-JUPL,Month-to-month,Fiber optic,65,115.3,0.084,Low
+2542-NMHJ,Month-to-month,No,61,36.98,0.082,Low
+2733-ONKG,Two year,Fiber optic,51,98.15,0.082,Low
+5577-XAHM,One year,DSL,57,72.64,0.081,Low
+4591-DPWJ,One year,No,28,34.0,0.081,Low
+9186-MSUS,Month-to-month,Fiber optic,66,123.28,0.08,Low
+2529-WEYC,Two year,No,18,32.17,0.08,Low
+5286-FGEK,Two year,DSL,39,78.12,0.08,Low
+4192-KEOE,One year,DSL,35,72.43,0.08,Low
+2169-TQOK,Month-to-month,No,58,32.03,0.08,Low
+3490-EMON,Month-to-month,No,59,36.57,0.08,Low
+4839-KCCP,Month-to-month,Fiber optic,70,126.67,0.079,Low
+1155-OGFI,Two year,DSL,50,78.84,0.079,Low
+5873-PGQW,Two year,DSL,21,68.27,0.079,Low
+6161-GNEC,One year,DSL,44,68.69,0.078,Low
+8430-DRCF,Month-to-month,Fiber optic,72,101.01,0.078,Low
+3368-HNPN,Month-to-month,No,60,30.84,0.077,Low
+4802-QLGC,Two year,Fiber optic,45,120.37,0.076,Low
+2949-AMTV,One year,DSL,48,83.08,0.076,Low
+6661-NTQY,Two year,DSL,43,79.77,0.075,Low
+2980-CQYX,Two year,Fiber optic,53,115.25,0.075,Low
+4638-HPVE,One year,DSL,51,67.23,0.075,Low
+5821-EBOG,Month-to-month,DSL,65,81.24,0.074,Low
+1404-PWFQ,Two year,Fiber optic,40,115.56,0.074,Low
+3493-YWPL,Month-to-month,DSL,50,83.46,0.073,Low
+4863-ROVW,Two year,Fiber optic,46,99.81,0.073,Low
+4579-TXEB,Month-to-month,No,59,37.33,0.072,Low
+5232-BLDD,One year,No,24,32.72,0.072,Low
+7780-GIQK,Two year,Fiber optic,47,104.25,0.072,Low
+9666-BQKL,Two year,No,4,33.2,0.071,Low
+2759-MWSX,Month-to-month,Fiber optic,70,109.91,0.071,Low
+2449-CNSE,One year,No,47,22.67,0.07,Low
+7481-JIYH,Month-to-month,Fiber optic,61,114.45,0.07,Low
+1954-BXOF,One year,No,33,35.79,0.07,Low
+7402-XFEE,Month-to-month,DSL,72,72.56,0.069,Low
+8312-XCCF,Month-to-month,Fiber optic,61,127.28,0.068,Low
+6973-VLIE,Month-to-month,No,61,34.58,0.068,Low
+2293-BWDX,Two year,No,9,34.99,0.068,Low
+6907-RJYB,One year,No,17,36.81,0.067,Low
+6818-OIBE,One year,Fiber optic,44,105.87,0.067,Low
+9566-IUFL,One year,DSL,45,89.84,0.067,Low
+4081-UNGB,Two year,DSL,44,84.56,0.066,Low
+7068-NRSO,Month-to-month,Fiber optic,56,114.83,0.066,Low
+1536-KFBG,Month-to-month,Fiber optic,67,114.04,0.065,Low
+1362-MYUJ,Month-to-month,Fiber optic,69,112.36,0.065,Low
+9415-OQKU,Month-to-month,DSL,67,89.72,0.065,Low
+4174-BFGN,Month-to-month,No,64,36.16,0.065,Low
+1987-GKJI,Month-to-month,Fiber optic,64,123.96,0.065,Low
+4093-KCQL,Month-to-month,No,61,32.63,0.064,Low
+5558-TROS,Two year,DSL,43,84.95,0.064,Low
+5431-OUOY,Two year,No,31,38.66,0.063,Low
+9905-GYQG,Two year,DSL,55,84.64,0.063,Low
+5927-GXQG,Month-to-month,Fiber optic,66,117.14,0.062,Low
+2019-VMAQ,Two year,No,20,31.55,0.062,Low
+2591-HBHM,One year,Fiber optic,47,122.75,0.062,Low
+2306-YTMI,Month-to-month,No,70,37.02,0.061,Low
+4810-GNTQ,Two year,DSL,44,86.87,0.061,Low
+3649-VLQN,Two year,DSL,58,75.35,0.061,Low
+8119-FHYR,Month-to-month,DSL,68,73.31,0.061,Low
+3187-XJWY,Month-to-month,Fiber optic,62,114.82,0.061,Low
+7564-XAAO,Month-to-month,Fiber optic,66,113.93,0.061,Low
+3505-VSAG,One year,No,28,31.17,0.06,Low
+4699-WJKI,Month-to-month,DSL,72,75.89,0.06,Low
+6774-XHUO,Two year,DSL,56,84.32,0.06,Low
+7809-MBWE,Month-to-month,Fiber optic,70,116.24,0.059,Low
+2774-HTQA,One year,DSL,49,77.66,0.059,Low
+2050-NRTG,One year,DSL,61,75.16,0.059,Low
+1193-XBWI,One year,DSL,63,61.85,0.058,Low
+2167-YGMU,Month-to-month,No,58,35.79,0.057,Low
+2551-RPWJ,Two year,DSL,49,83.49,0.056,Low
+3538-PDTE,Month-to-month,No,72,36.96,0.056,Low
+5744-RXUB,Month-to-month,DSL,70,73.8,0.056,Low
+7570-RWLF,Month-to-month,DSL,71,78.06,0.056,Low
+9907-HHRT,Two year,Fiber optic,42,116.95,0.056,Low
+1802-DEAD,Two year,No,23,36.13,0.055,Low
+6949-WILU,Two year,No,35,32.72,0.054,Low
+3946-JSIT,Two year,DSL,49,72.82,0.054,Low
+4420-VKCV,Month-to-month,No,67,36.42,0.054,Low
+9648-WSIC,Two year,Fiber optic,58,111.07,0.054,Low
+8215-WWXE,Two year,DSL,36,87.12,0.053,Low
+9345-KWGO,Month-to-month,Fiber optic,70,113.61,0.053,Low
+7353-RNOL,Month-to-month,Fiber optic,59,106.61,0.053,Low
+1596-BEFL,Month-to-month,No,72,31.9,0.052,Low
+7371-OVBO,Month-to-month,No,71,32.7,0.052,Low
+5107-PXSH,One year,DSL,54,79.33,0.052,Low
+1846-KHSM,One year,Fiber optic,40,107.47,0.052,Low
+1780-UPBK,Month-to-month,No,61,31.26,0.052,Low
+8126-LGOX,Two year,Fiber optic,49,99.43,0.051,Low
+3800-CHNC,Two year,No,40,32.02,0.051,Low
+2724-AXCV,Two year,Fiber optic,54,102.37,0.051,Low
+7704-BELU,Month-to-month,DSL,72,73.02,0.05,Low
+6685-ARFB,Two year,Fiber optic,52,108.69,0.049,Low
+9319-VXTX,Month-to-month,No,72,36.27,0.049,Low
+3082-WQHJ,Month-to-month,Fiber optic,72,110.95,0.048,Low
+7043-NEVX,One year,DSL,60,73.01,0.048,Low
+7938-BEEF,One year,DSL,34,72.94,0.047,Low
+2460-VUFF,Two year,DSL,38,82.3,0.047,Low
+7838-EESU,One year,DSL,66,90.02,0.046,Low
+1340-UQJK,Two year,Fiber optic,57,121.76,0.046,Low
+9418-LIGI,Month-to-month,No,57,37.82,0.046,Low
+4719-TCPM,One year,Fiber optic,57,115.72,0.046,Low
+4330-PWYK,Two year,Fiber optic,27,134.15,0.046,Low
+1182-IGMK,One year,DSL,49,86.14,0.046,Low
+2959-GRHA,Two year,Fiber optic,60,103.68,0.045,Low
+2960-NLFQ,Month-to-month,No,49,39.17,0.045,Low
+2749-TNIH,Two year,Fiber optic,54,117.79,0.045,Low
+9946-CVOA,One year,DSL,54,70.85,0.045,Low
+1454-YUOA,One year,DSL,53,75.56,0.045,Low
+3711-QETU,Month-to-month,No,72,32.06,0.044,Low
+3551-LJHX,One year,Fiber optic,62,105.63,0.044,Low
+1614-NNYD,One year,Fiber optic,67,106.46,0.044,Low
+7413-CUEE,Two year,No,33,31.28,0.044,Low
+2854-QGUT,Two year,No,26,31.89,0.043,Low
+2628-FCPH,Month-to-month,No,68,38.12,0.043,Low
+6877-VKND,One year,Fiber optic,48,111.15,0.042,Low
+6345-MOWL,Two year,Fiber optic,64,99.71,0.042,Low
+3898-NDYM,One year,Fiber optic,61,114.42,0.042,Low
+7511-QHHY,Two year,Fiber optic,59,111.91,0.042,Low
+9436-LYPX,One year,DSL,68,72.87,0.042,Low
+8270-TOKH,Two year,Fiber optic,64,98.34,0.041,Low
+4811-GPXV,One year,Fiber optic,51,118.69,0.041,Low
+3645-RNJN,One year,Fiber optic,58,108.07,0.041,Low
+9389-FCGS,Two year,DSL,41,74.01,0.041,Low
+1661-EXIC,One year,Fiber optic,56,120.47,0.041,Low
+8544-KBOL,One year,No,28,33.04,0.04,Low
+9707-HIWE,Two year,Fiber optic,47,114.96,0.04,Low
+5648-VONX,Two year,Fiber optic,54,102.54,0.04,Low
+4239-APIM,One year,No,46,34.76,0.039,Low
+8725-OYNG,Two year,DSL,63,73.07,0.039,Low
+6977-SGCM,Two year,Fiber optic,67,108.39,0.039,Low
+3257-EMDB,One year,DSL,58,87.26,0.039,Low
+6476-UQYW,One year,DSL,58,84.21,0.039,Low
+7342-UJLX,One year,No,59,22.0,0.039,Low
+2266-SWND,Month-to-month,No,71,36.75,0.038,Low
+2589-TTRN,Two year,DSL,38,68.94,0.038,Low
+6103-EQJU,Month-to-month,No,58,36.4,0.038,Low
+5675-NEBK,Two year,No,30,29.73,0.038,Low
+3731-HVCA,Two year,Fiber optic,70,103.93,0.037,Low
+7337-IXCX,Two year,Fiber optic,53,123.24,0.037,Low
+5172-FRBH,Two year,Fiber optic,55,110.17,0.036,Low
+3502-NTSO,Two year,DSL,61,89.37,0.036,Low
+6732-LCAA,One year,Fiber optic,68,110.19,0.036,Low
+4444-FCIE,Two year,No,39,37.07,0.036,Low
+5944-TIQT,Two year,Fiber optic,58,122.32,0.036,Low
+5595-PHAQ,One year,No,60,37.86,0.035,Low
+5757-PYSN,One year,Fiber optic,72,109.53,0.035,Low
+2440-QQCL,One year,DSL,49,85.93,0.035,Low
+2015-AVAR,One year,DSL,64,83.99,0.035,Low
+7217-DEJK,Two year,DSL,60,80.19,0.035,Low
+2065-YRHH,One year,No,65,20.56,0.034,Low
+7789-DRIQ,One year,DSL,72,80.77,0.034,Low
+3869-CPID,One year,DSL,68,85.65,0.034,Low
+3780-GUGA,Two year,DSL,55,75.92,0.034,Low
+2708-OLVU,Two year,Fiber optic,50,123.28,0.034,Low
+3822-PCMC,Two year,Fiber optic,41,110.48,0.034,Low
+4730-UBKV,One year,Fiber optic,42,111.72,0.033,Low
+3504-XCQC,Two year,Fiber optic,53,126.35,0.033,Low
+8099-GLHO,One year,DSL,69,72.48,0.033,Low
+2742-FLTR,One year,Fiber optic,60,98.29,0.033,Low
+9378-GHCV,One year,Fiber optic,57,127.36,0.031,Low
+2663-WYGA,Two year,No,48,32.87,0.031,Low
+9103-FJCS,One year,DSL,69,72.46,0.031,Low
+8951-WSSR,Two year,DSL,70,68.61,0.031,Low
+4390-NSVX,Two year,Fiber optic,64,114.63,0.031,Low
+7121-QJGP,One year,DSL,60,79.33,0.03,Low
+3989-ICUH,Two year,Fiber optic,56,106.32,0.03,Low
+3567-EQED,Two year,DSL,55,102.76,0.03,Low
+8115-AYVT,Two year,DSL,68,73.73,0.03,Low
+7099-HXLA,Month-to-month,No,66,31.98,0.03,Low
+4109-SDOI,Two year,No,52,32.19,0.029,Low
+6726-NBSR,Two year,DSL,62,84.2,0.029,Low
+9264-OUCB,Two year,No,44,36.62,0.029,Low
+7949-BUAL,Two year,No,50,36.56,0.029,Low
+1255-EOYB,Two year,DSL,64,86.11,0.028,Low
+3597-NDUH,Two year,Fiber optic,60,114.29,0.028,Low
+6734-SWKK,One year,Fiber optic,68,103.47,0.028,Low
+2664-AOBV,Two year,No,46,35.52,0.028,Low
+1663-OVXI,Two year,No,57,36.56,0.028,Low
+9472-CCRS,One year,Fiber optic,52,118.7,0.027,Low
+4628-AHLS,Two year,DSL,65,75.96,0.027,Low
+2132-GOWG,Month-to-month,DSL,71,87.02,0.027,Low
+8002-BCRN,One year,Fiber optic,68,117.1,0.027,Low
+6870-MRFC,One year,Fiber optic,61,111.29,0.027,Low
+8961-DBTP,One year,Fiber optic,66,117.42,0.026,Low
+4175-WIBN,Two year,Fiber optic,67,109.74,0.026,Low
+5150-OXVV,Two year,Fiber optic,61,105.31,0.026,Low
+4648-JUEB,Two year,No,53,31.06,0.026,Low
+2648-HDFH,Month-to-month,DSL,70,79.51,0.026,Low
+6806-TRRB,Two year,DSL,63,93.27,0.025,Low
+6189-IGDM,Two year,DSL,70,75.66,0.025,Low
+3235-IADC,One year,No,53,31.57,0.025,Low
+2823-CCLO,Two year,DSL,47,80.38,0.024,Low
+7305-AWWR,Two year,Fiber optic,53,105.97,0.024,Low
+8941-UBMK,One year,Fiber optic,59,104.6,0.024,Low
+5167-URRN,Two year,DSL,47,79.09,0.023,Low
+2476-PFHM,Two year,DSL,64,79.85,0.023,Low
+3105-QBYX,One year,DSL,65,70.07,0.023,Low
+1587-PUXA,Two year,Fiber optic,66,120.68,0.023,Low
+7396-MQCT,One year,DSL,69,82.54,0.023,Low
+9436-PBBW,Two year,Fiber optic,57,117.58,0.022,Low
+1492-KLAQ,One year,Fiber optic,65,119.0,0.022,Low
+8183-AMWU,One year,No,54,36.05,0.021,Low
+7645-QRFS,Two year,Fiber optic,63,103.02,0.021,Low
+1514-ADHC,Two year,No,60,31.71,0.021,Low
+8647-WWFX,One year,No,54,37.21,0.021,Low
+2802-YYRW,Two year,No,60,36.61,0.02,Low
+3634-PSWF,Two year,No,62,31.16,0.02,Low
+2037-YBUY,Two year,No,63,30.8,0.02,Low
+2823-BONT,Two year,DSL,66,69.87,0.02,Low
+4935-HSFC,Two year,No,63,33.4,0.02,Low
+2581-CFRS,Two year,No,38,30.7,0.019,Low
+4440-WMWY,One year,No,57,31.67,0.019,Low
+8260-YVPI,One year,Fiber optic,63,104.51,0.019,Low
+7257-MBIU,One year,No,55,35.75,0.019,Low
+3120-IHQA,One year,DSL,62,73.98,0.018,Low
+3693-LLTK,Two year,DSL,52,103.49,0.018,Low
+5481-UVFO,One year,DSL,61,86.22,0.018,Low
+2908-XKIB,Two year,No,64,36.62,0.018,Low
+6122-OWNK,Two year,Fiber optic,53,101.63,0.018,Low
+6752-JHXP,Two year,Fiber optic,71,119.9,0.017,Low
+8240-YOYV,Two year,DSL,61,78.78,0.017,Low
+8230-IWYS,Two year,DSL,71,75.88,0.017,Low
+5748-RTHI,Two year,Fiber optic,70,118.37,0.017,Low
+4843-VRLB,One year,Fiber optic,70,110.47,0.016,Low
+8999-ETQU,Two year,No,56,37.69,0.016,Low
+9853-PEOC,Two year,Fiber optic,72,110.82,0.015,Low
+4690-EDFN,One year,Fiber optic,66,110.94,0.015,Low
+7163-IVTL,One year,DSL,63,76.35,0.014,Low
+2238-NXWV,One year,Fiber optic,71,119.69,0.014,Low
+8121-HGAU,Two year,DSL,72,70.92,0.014,Low
+9453-CVKO,One year,No,71,31.47,0.011,Low
+1536-ODML,Two year,DSL,66,81.32,0.011,Low
+8943-HQLS,Two year,DSL,72,76.92,0.011,Low
+8024-UIFS,Two year,No,62,33.48,0.011,Low
+1294-BMNQ,One year,No,67,36.65,0.011,Low
+3043-FIHK,One year,No,61,30.55,0.01,Low
+4572-XAQK,One year,No,51,31.52,0.01,Low
+9306-DBIJ,One year,DSL,69,89.81,0.01,Low
+6626-TKKK,One year,No,48,33.57,0.009,Low
+2724-WPRV,Two year,DSL,71,82.47,0.008,Low
+5258-PIHT,One year,No,69,31.32,0.008,Low
+2130-RDCM,One year,Fiber optic,72,109.48,0.007,Low
+6347-XKTR,Two year,DSL,68,76.0,0.007,Low
